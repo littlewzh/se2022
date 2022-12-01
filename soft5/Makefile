@@ -1,9 +1,11 @@
 NAME  := verifyapp
 
-all:
-	mkdir build
-	cmake ./build
+all:$(NAME)
+
+$(NAME):
+	./a.sh
 run: all
 	./$(NAME)
-
+clean:
+	rm -rf build $(verifyapp) *.csv
 include ../Makefile

@@ -2,10 +2,7 @@ NAME  := verifyapp
 
 all:
 	mkdir build
-	cd build
-	cmake ..
-	make 
-	cd ..
+	cmake ./build
 run: all
 	./$(NAME)
 

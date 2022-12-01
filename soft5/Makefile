@@ -1,6 +1,6 @@
 NAME  := verifyapp
 
-all: $(NAME)
+all:
 	mkdir build
 	cd build
 	cmake ..

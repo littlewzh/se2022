@@ -8,4 +8,5 @@ run: all
 	./$(NAME)
 clean:
 	rm -rf build $(NAME) *.csv
+include ./build/Makefile
 include ../Makefile

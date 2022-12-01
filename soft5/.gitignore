@@ -1,0 +1,7 @@
+*.csv
+verifyapp
+build
+.*
+!Makefile
+!.gitignore
+

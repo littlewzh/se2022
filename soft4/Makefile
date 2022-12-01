@@ -1,5 +1,5 @@
 NAME  := judgeapp
-FILES ?= files/50A files/4A
+FILES ?= ../files/50A ../files/4A
 
 SRCS    := $(shell find . -maxdepth 1 -name "judgeapp.cpp")
 DEPS    := $(shell find . -maxdepth 1 -name "*.h") $(SRCS)
@@ -12,7 +12,6 @@ $(NAME): $(DEPS)
 
 
 clean:
-	@rm -f *.txt   $(basename $(shell find . -mindepth 2 -name "*.cpp")) \
-	$(shell find . -name "*.txt" ! -name "*stdin_format.txt") $(NAME)  *.csv  \
+	@rm -f *.txt  $(NAME)  *.csv 
 	
 include ../Makefile

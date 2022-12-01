@@ -7,5 +7,5 @@ $(NAME):
 run: all
 	./$(NAME)
 clean:
-	rm -rf build $(verifyapp) *.csv
+	rm -rf build $(NAME) *.csv
 include ../Makefile

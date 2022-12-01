@@ -1,2 +1,2 @@
-#define PWDPATH "/home/wzh/soft5/"
-#define FILEPATH "/home/wzh/soft5/"
+#define PWDPATH "/home/wzh/se2022/"
+#define FILEPATH "/home/wzh/se2022/"
